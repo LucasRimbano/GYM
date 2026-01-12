@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gym Pro · Presentación</title>
+  <meta name="description" content="Entrená mejor. Programas, coaching y una comunidad real. Sumate al gym y empezá hoy." />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer  src="script/main.js" ></script>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="Top-bar">
+    <div class="container Top-bar-inner">
+        <a class="marca" href="#">
+            <span class="marca-punto">•</span>
+            <span class="marca-nombre">Gym Pro</span>
+        </a>
+
+        <nav class="nav">
+            <a class="nav-link" href="#planes">Planes</a>
+            <a class="nav-link" href="#clases">Clases</a>
+            <a class="nav-link" href="#coaching">Coaching</a>
+            <a class="nav-link" href="#eventos">Eventos</a>
+        </nav>
+
+    <div class="status-pill" id="gymStatus" aria-live="polite">
+            <span class="dot" aria-hidden="true"></span>
+            <span class="label">Cargando…</span>
+    </div>
+
+        <div class="header-actions">
+        <a class="btn btn-ghost" href="#contacto">Free trial</a>
+
+        <button class="icon-btn" type="button" aria-label="Cuenta">
+          <!-- User icon -->
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 12a4.2 4.2 0 1 0-4.2-4.2A4.2 4.2 0 0 0 12 12Zm0 2.1c-4.2 0-7.6 2.2-7.6 4.9V21h15.2v-2c0-2.7-3.4-4.9-7.6-4.9Z"/>
+          </svg>
+        </button>
+
+        <!-- Botón menú mobile (lo conectás con JS después si querés) -->
+        <button class="icon-btn menu-btn" type="button" aria-label="Abrir menú">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M4 7h16v2H4V7Zm0 6h16v2H4v-2Zm0 6h16v2H4v-2Z"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+    </header>
+
+  <!-- HERO -->
+  <main>
+    <section class="hero" id="club">
+      <div class="hero-bg" aria-hidden="true"></div>
+
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="hero-eyebrow">Presentación del Gym</p>
+
+          <h1 class="hero-title">
+            ELITE FITNESS<br />
+            EN EL CORAZÓN<br />
+            DE TU CIUDAD
+          </h1>
+
+          <p class="hero-sub">
+            Desafío de 21 días · Entrená con método. <strong>Coaching</strong>, clases y una comunidad que te empuja a mejorar.
+          </p>
+
+          <p class="hero-micro">
+            Sumate hoy y llevate beneficios exclusivos en tu primer plan.
+          </p>
+
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#planes">
+              Unite ahora <span aria-hidden="true">↗</span>
+            </a>
+
+            <a class="btn btn-outline" href="#contacto">
+              Quiero información
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-media" aria-hidden="true">
+          <!-- Imagen del atleta (poné la tuya en assets/hero-athlete.png) -->
+          <img class="hero-athlete" src="img/gym.jpg" alt="imagen" />
+          <div class="hero-arrows">
+            <span class="arrow"></span>
+            <span class="arrow"></span>
+          </div>
+        </div>
+      </div>
+      <section class="features" aria-label="Beneficios">
+      <!-- FEATURES CARDS -->
+      <div class="container feature-grid"> 
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <!-- Icon: coaching -->
+              <svg viewBox="0 0 24 24">
+                <path d="M7 13a3 3 0 1 1 3-3 3 3 0 0 1-3 3Zm10-1.5A2.5 2.5 0 1 0 14.5 9 2.5 2.5 0 0 0 17 11.5ZM2.5 20.5v-1c0-2.8 3-4.7 5.9-4.7s5.9 1.9 5.9 4.7v1Zm13.1 0v-.7c0-2 2.1-3.3 4.2-3.3S24 17.8 24 19.8v.7Z"/>
+              </svg>
+            </div>
+            <h3>Coaching experto</h3>
+            <p>Plan personalizado y seguimiento real para que llegues a tu objetivo sin vueltas.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <!-- Icon: schedule -->
+              <svg viewBox="0 0 24 24">
+                <path d="M7 2h2v2h6V2h2v2h3v18H4V4h3V2Zm13 8H6v10h14V10Zm0-4H6v2h14V6Z"/>
+              </svg>
+            </div>
+            <h3>Horarios flexibles</h3>
+            <p>Mañana, tarde o noche. Elegí el ritmo que encaja con tu rutina y sostenelo.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <!-- Icon: leaf/facility -->
+              <svg viewBox="0 0 24 24">
+                <path d="M20.7 3.3c-6.8-.7-12.7 2.9-15.4 7.9-1.2 2.2-1.6 4.6-1.3 7.1 2.5.3 4.9-.1 7.1-1.3 5-2.7 8.6-8.6 7.9-15.4ZM8.5 16.2l7.7-7.7 1.1 1.1-7.7 7.7-1.1-1.1Z"/>
+              </svg>
+            </div>
+            <h3>Instalación moderna</h3>
+            <p>Espacios limpios, equipamiento completo y zonas pensadas para entrenar en serio.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <!-- Icon: community -->
+              <svg viewBox="0 0 24 24">
+                <path d="M9 11a3 3 0 1 0-3-3 3 3 0 0 0 3 3Zm9 0a2.5 2.5 0 1 0-2.5-2.5A2.5 2.5 0 0 0 18 11ZM2 21v-1.2c0-2.8 3.2-4.8 7-4.8s7 2 7 4.8V21Zm13.5 0v-.8c0-2 2.3-3.4 4.5-3.4s4.5 1.4 4.5 3.4V21Z"/>
+              </svg>
+            </div>
+            <h3>Comunidad inclusiva</h3>
+            <p>Un entorno motivador para todos los niveles, con energía y objetivos compartidos.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+    </section>
+
+    
+    <!-- SECTION: PLANES / CAPTURA -->
+    <section class="lead" id="planes">
+      <div class="container lead-inner">
+        <div class="lead-head">
+          <h2>EMPEZÁ HOY</h2>
+          <p>Dejá tus datos y te enviamos planes, precios y disponibilidad. Respuesta rápida.</p>
+        </div>
+
+        <form class="lead-form" id="contacto" autocomplete="on">
+          <div class="field">
+            <label for="name">Nombre</label>
+            <input id="name" name="name" type="text" placeholder="Tu nombre" required />
+          </div>
+
+          <div class="field">
+            <label for="phone">WhatsApp</label>
+            <input id="phone" name="phone" type="tel" placeholder="+54 11..." required />
+          </div>
+          
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="Tu email" required />
+          </div>
+         
+          <div class="field">
+            <label for="age">Edad</label>
+            <input id="age" name="age" type="number" placeholder="Tu edad" required />
+          </div>
+
+          <div class="field">
+            <label for="kg">Peso (kg)</label>
+            <input id="kg" name="kg" type="number" placeholder="Tu peso" required />
+          </div>
+
+          <div class="field">
+            <label for="cm">Altura (cm)</label>
+            <input id="cm" name="cm" type="number" placeholder="Tu altura" required />
+          </div>
+
+          <div class="field">
+            <label for="goal">Objetivo</label>
+            <select id="goal" name="goal">
+              <option>Ganar fuerza</option>
+              <option>Bajar grasa</option>
+              <option>Recomposición</option>
+              <option>Rendimiento</option>
+            </select>
+          </div>
+          <div class="form-message" id="formMessage" aria-live="polite"></div>
+
+          <button class="btn btn-primary btn-wide" type="submit">
+            Quiero mi plan <span aria-hidden="true">→</span>
+          </button>
+
+          <p class="lead-note">
+            Al enviar aceptás recibir información del gym. Sin spam.
+          </p>
+        </form>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>© <span id="year">2026</span> Gym Pro. Todos los derechos reservados.</p>
+        <a href="#club">Volver arriba</a>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
